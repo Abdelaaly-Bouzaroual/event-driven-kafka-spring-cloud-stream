@@ -90,7 +90,7 @@ docker exec --interactive --tty bdcc-kafka-broker kafka-console-consumer --boots
 > Utile quand la valeur est un `Long` (nombre) et la clé une `String`.
 
 ```bash
-docker exec --interactive --tty bdcc-kafka-broker kafka-console-consumer --bootstrap-server broker:9092 --topic R66 --property print.key=true --property print.value=true --property key.deserializer=org.apache.kafka.common.serialization.StringDeserializer --property value.deserializer=org.apache.kafka.common.serialization.LongDeserializer
+docker exec --interactive --tty bdcc-kafka-broker kafka-console-consumer --bootstrap-server broker:9092 --topic T4 --property print.key=true --property print.value=true --property key.deserializer=org.apache.kafka.common.serialization.StringDeserializer --property value.deserializer=org.apache.kafka.common.serialization.LongDeserializer
 ```
 
 ### Gestion de l'historique et des Groupes
